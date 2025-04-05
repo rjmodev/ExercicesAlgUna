@@ -11,5 +11,6 @@ public class Alg38 {
         num = input.nextFloat();
 
         System.out.printf("A terça parte desse numero é: %.2f%n", num*1/3);
+        input.close();
     }
 }
