@@ -8,17 +8,14 @@ public class Alg53 {
 
         System.out.printf("%n%nDigite o valor de A: ");
         int sideA = in.nextInt();
-
         System.out.printf("Digite o valor de B: ");
         int sideB = in.nextInt();
-
         System.out.printf("Digite o valor de C: ");
         int sideC = in.nextInt();
 
         double sideParallel = Math.sqrt((Math.pow (sideA,2) + Math.pow(sideB,2) + Math.pow(sideC,2)));
 
         System.out.printf("%n%nA diagonal do paralelepípedo é: %.2fcm", sideParallel);
-
         in.close();
     }
 }
